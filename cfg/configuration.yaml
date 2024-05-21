@@ -1,0 +1,8 @@
+states:
+  - day
+  - night
+initial_state: day
+state_change_probability: 1/1000
+days_per_month: 300
+months_per_year: 40
+years: 5
