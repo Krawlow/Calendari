@@ -103,7 +103,7 @@ if __name__ == "__main__":
         calendar_configuration["months"]
         )
     if (calendar_configuration["create_calendar_image"]):
-        create_image_from_calendar(calendar, ["./img/sun.jpeg","./img/moon.jpeg"], "./img/calendar.png")
+        create_image_from_calendar(calendar, ["./img/Day.jpg","./img/Night.jpg"], "./img/calendar.png")
 
     current_state = calendar_configuration["initial_state"]
     length_of_period = 0
